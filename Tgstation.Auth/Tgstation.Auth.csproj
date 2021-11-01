@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Title>/tg/station ASP.NET OAuth Provider</Title>
+        <Authors>bobbahbrown</Authors>
+        <Description>OAuth provider for performing authentication with the /tg/station forums</Description>
+        <PackageProjectUrl>https://github.com/bobbahbrown/Tgstation.Auth</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/bobbahbrown/Tgstation.Auth.git</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>tgstation;oauth</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+        <None Include="../README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
