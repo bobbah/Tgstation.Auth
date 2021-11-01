@@ -2,6 +2,8 @@
 
 A non-generic OAuth provider to be used with ASP.NET Core 5.0 and the /tg/station forums.
 
+This adds all available user data as claims. Groups are added as roles with the group name as the role name. Default .NET ClaimTypes constants are used where possible, otherwise see [TgClaimTypes.cs](Tgstation.Auth/Tgstation.Auth/TgClaimTypes.cs) for all additional constants.
+
 Example usage:
 ```csharp
 services.AddAuthentication(options =>
