@@ -1,6 +1,6 @@
 # Tgstation.Auth
 
-![Nuget](https://img.shields.io/nuget/v/Tgstation.Auth)
+![Nuget](https://img.shields.io/nuget/v/Tgstation.Auth?style=for-the-badge)
 
 An OAuth provider to be used with ASP.NET Core 5.0 and the /tg/station forums.
 
