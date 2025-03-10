@@ -2,7 +2,7 @@
 
 ![Nuget](https://img.shields.io/nuget/v/Tgstation.Auth?style=for-the-badge)
 
-An OAuth provider to be used with ASP.NET Core 5.0 and the /tg/station forums.
+An OAuth provider to be used with ASP.NET Core 8.0 and the /tg/station forums.
 
 This adds all available user data as claims. Groups are added as roles with the group name as the role name. Default
 .NET ClaimTypes constants are used where possible, otherwise
@@ -29,5 +29,5 @@ services.AddAuthentication(options =>
 ```
 
 Note that you will need a client ID and secret as provided by MSO, as there is currently no self-serve portal for
-application creation. See [this post](https://tgstation13.org/phpBB/viewtopic.php?f=45&t=30155) for more details on the
+application creation. See [this post](https://forums.tgstation13.org/viewtopic.php?f=45&t=30155) for more details on the
 /tg/station OAuth implementation.
